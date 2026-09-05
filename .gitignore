@@ -1,5 +1,6 @@
 # Ignorar senhas reais do Streamlit
 .streamlit/secrets.toml
+secrets.toml
 
 # Ignorar pastas virtuais e caches temporários do Python
 __pycache__/
