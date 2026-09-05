@@ -48,7 +48,7 @@ Este repositório foi configurado de forma simplificada para facilitar a avalia�
 
 ### 1. Dados de Teste Estáticos vs. Integração em Produção
 Atualmente, o sistema conta com uma base de dados em Excel (`planilha_mestre.xlsx`) e um pacote pré-compactado (`pacote_de_teste.zip`) disponível para download direto na interface.
-* **Como alterar para produção:** O sistema possui uma arquitetura modular baseada no padrão MVC. Para conectar a um banco de dados real ou a um ERP, basta alterar o arquivo `Models/DAL.py` (Data Access Layer). O restante da aplicação permanecerá intacto, podendo se conectar a bancos SQL, APIs externas ou planilhas em nuvem sem gerar impactos no Controlador.
+* **Como alterar para produção:** O sistema possui uma arquitetura modular baseada no padrão MVC. Para conectar a um banco de dados real, basta alterar o arquivo `Models/DAL.py` (Data Access Layer). O restante da aplicação permanecerá intacto, podendo se conectar a bancos SQL, APIs externas ou planilhas em nuvem sem gerar impactos no Controlador.
 
 ### 2. Gerenciamento de Templates (Desacoplamento)
 Para facilitar a manutenção por equipes de negócios, os textos e assuntos dos e-mails foram desacoplados do código-fonte. 
