@@ -1,0 +1,14 @@
+{
+    "Selecione...": {
+        "para": [],
+        "copia": []
+    },
+    "[DEMO] Diretoria Financeira": {
+        "para": ["diretor@empresa.com"],
+        "copia": ["analista@empresa.com"]
+    },
+    "[DEMO] Auditoria Externa": {
+        "para": ["auditoria@consultoria.com"],
+        "copia": []
+    }
+}

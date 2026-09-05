@@ -1,0 +1,10 @@
+{
+  "Auditoria Geral": {
+    "assunto": "[AUDITORIA] Revisão Concluída - {Cliente} (Ref: {ID_Operacao})",
+    "corpo": "Prezado(a) {Gerente_Responsavel},\n\nInformamos que o processo de conferência foi finalizado para o cliente {Cliente}.\n\nRESUMO DA AVALIAÇÃO:\n- Operação: {ID_Operacao}\n- Status Atual: {Status_Auditoria}\n- Prazo Conclusão: {Data_Conclusao}\n\nAs observações pontuais e o parecer técnico completo encontram-se nos documentos em anexo.\n\nAtenciosamente,\nEquipe de Auditoria Externa"
+  },
+  "Relatório Financeiro": {
+    "assunto": "[{tipo_processo}] Operação: {ID_Operacao} | Cliente: {Cliente}",
+    "corpo": "Prezado(a) {Gerente_Responsavel},\n\nSegue em anexo a documentação referente ao processo: {tipo_processo}.\n\nDADOS FINANCEIROS E CONTRATUAIS\n- ID da Operação: {ID_Operacao}\n- Cliente: {Cliente}\n- Departamento: {Departamento}\n- Centro de Custo: {Centro_Custo}\n- Valor Faturado: {Valor_Faturado}\n\nPRAZOS E AUDITORIA\n- Data de Início: {Data_Inicio}\n- Data de Conclusão: {Data_Conclusao}\n- Status da Auditoria: {Status_Auditoria}\n- SLA Acordado: {SLA_Acordado}\n- Observações: {Observacoes}\n\nAtenciosamente,\nSistema de Automação Financeira"
+  }
+}
