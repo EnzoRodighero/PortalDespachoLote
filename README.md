@@ -3,6 +3,8 @@
 > **Demonstração Online:** Acesse a aplicação ao vivo no Streamlit Cloud através do link abaixo:  
 > [**despacho-em-lote.streamlit.app** 🔗 *(Abra em uma nova aba)*](https://despacho-em-lote.streamlit.app/)
 
+>**Nota sobre o projeto:** Esta é uma **versão de demonstração** adaptada para portfólio. Para viabilizar testes públicos imediatos e garantir a privacidade de dados, o sistema atual opera com uma base estática e simulação de envios. Toda a arquitetura, no entanto, foi estruturada com foco em ambientes corporativos de produção: construída sob o padrão **MVC** e princípios de modularidade, a base do projeto está pronta para escalar e ser facilmente conectada a bancos SQL, APIs ou ERPs.
+
 Um sistema corporativo de automação construído em Python e Streamlit, projetado para resolver um dos maiores gargalos operacionais de processos administrativos: o envio manual e repetitivo de e-mails.
 
 ---
