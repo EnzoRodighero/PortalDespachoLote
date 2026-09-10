@@ -23,6 +23,18 @@ class GerenciadorDeSessao:
     def listar_chaves(self):
         return list(st.session_state.keys())
 
+    def inicializar_variaveis_padrao(self):
+        if not self.existe('ultimo_processo'):
+            self.salvar('ultimo_processo', None)
+            self.salvar('ultima_entidade', None)
+            self.salvar('versao_formulario', 0)
+            
+        if not self.existe('chave_uploader'):
+            self.salvar('chave_uploader', 0)
+            
+        if not self.existe('tela_atual'):
+            self.salvar('tela_atual', 'operacional')
+
     def resetar_memoria_formulario(self):
         chaves = self.listar_chaves()
         for k in chaves:
