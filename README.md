@@ -50,19 +50,21 @@ Estrutura do projeto:
 
 ```text
 ├── Controllers/
-│   ├── ControladorDespacho.py    
-│   └── ControladorEmail.py       
+│   ├── ControladorDespacho.py
+│   ├── ControladorEmail.py
+│   └── ControladorTelas.py
 ├── Models/
-│   ├── AgrupadorDocumentos.py    
-│   ├── GerenciadorDeSessao.py    
-│   ├── ServicoEmail.py           
+│   ├── AgrupadorDocumentos.py
+│   ├── GerenciadorContatos.py
+│   ├── GerenciadorDeSessao.py
+│   ├── ServicoEmail.py
 │   └── DAL/                      # Data Access Layer (Acesso aos Dados)
 │       ├── DalConfiguracoesSmtp.py
 │       ├── DalDestinatarios.py
 │       ├── DalPlanilhaMestre.py
 │       └── DalTemplateEmails.py
 └── Views/
-    ├── Interface.py              
+    ├── Interface.py
     └── Components/               # Componentes Visuais Modulares
         ├── ComponenteConfiguracao.py
         ├── ComponenteOperacao.py
