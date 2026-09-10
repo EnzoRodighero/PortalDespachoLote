@@ -4,14 +4,7 @@ from Controllers.ControladorDespacho import ControladorDespacho
 
 def main():
     sessao = GerenciadorDeSessao()
-    
-    if not sessao.existe('ultimo_processo'):
-        sessao.salvar('ultimo_processo', None)
-        sessao.salvar('ultima_entidade', None)
-        sessao.salvar('versao_formulario', 0)
-        
-    if not sessao.existe('chave_uploader'):
-        sessao.salvar('chave_uploader', 0)
+    sessao.inicializar_variaveis_padrao()
 
     if sessao.obter('tela_atual') == 'resumo':
         controlador = ControladorTelas()
